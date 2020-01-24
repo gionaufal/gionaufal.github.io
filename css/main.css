@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou:400');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -7,9 +8,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 130%;
-  background-color: #D3D3D3;
+  background-color: #f4f4f4;
   color: #1c1c1c;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Code Pro', sans-serif;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -17,10 +18,10 @@ body {
 	vertical-align: baseline;
 }
 ol, ul {
-	list-style: none;
   padding: 0;
   margin: 0;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -35,7 +36,7 @@ table {
 }
 
 a {
-  color: orange;
+  color: #ff8c00;
   text-decoration: none;
 }
 
@@ -47,14 +48,14 @@ a {
 
 .wrapper .side {
   display: flex;
-  padding: 50px;
+  padding: 100px;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
 .wrapper .right {
   color: #D3D3D3;
+  align-items: center;
   background-color: #1c1c1c;
 }
 
@@ -62,13 +63,19 @@ a {
   border-radius: 50%;
 }
 
+.side ul {
+  padding-left: 50px;
+}
+
 .right li {
   padding-top: 10px;
-  padding-left: 0;
+  margin-left: -40px;
+  list-style: none;
   text-align: center;
 }
 
 h1 {
+  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
   line-height: 130%;
 }
 
